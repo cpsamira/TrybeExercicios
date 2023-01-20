@@ -1,0 +1,9 @@
+h1, p {
+    text-align: center;
+}
+div :hover {
+    background-color: darkseagreen;
+}
+div :active {
+    font-family: monospace;
+}
