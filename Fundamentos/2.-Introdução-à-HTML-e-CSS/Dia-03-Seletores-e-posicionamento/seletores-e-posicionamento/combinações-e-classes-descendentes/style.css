@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+ol li {
+    background-color: beige;
+}
+ol li:nth-child(even) { 
+color: olive;
+}
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+h1, h2 {
+    color:indianred
+}
+h1 em, h2 em {
+    font-size: 40px;
+    border: 1px solid[black];
+}
+li {
+    font-size: 20px;
+}
+li em {
+    font-weight: 700;
+}
