@@ -1,0 +1,19 @@
+{
+  "name": "validador-de-campos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  },
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.3",
+    "validator": "^13.11.0"
+  }
+}
